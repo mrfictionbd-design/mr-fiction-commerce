@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { products, formatPrice } from "@/lib/data"
+import { products, formatPrice } from "../../lib/data"
 
 export default async function ShopPage({
   searchParams,

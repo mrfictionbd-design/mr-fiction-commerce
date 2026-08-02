@@ -1,7 +1,7 @@
 import Link from "next/link"
-import { products, formatPrice } from "@/lib/data"
+import { products, formatPrice } from "../../lib/data"
 import { notFound } from "next/navigation"
-import AddToCartButton from "@/components/AddToCartButton"
+import AddToCartButton from "../../components/AddToCartButton"
 
 export default async function ProductPage({
   params,

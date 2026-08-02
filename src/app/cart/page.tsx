@@ -9,8 +9,8 @@ import {
   cartTotal,
   cartCount,
   type CartItem,
-} from "@/lib/cart"
-import { formatPrice } from "@/lib/data"
+} from "../../lib/cart"
+import { formatPrice } from "../../lib/data"
 
 export default function CartPage() {
   const [items, setItems] = useState<CartItem[]>([])

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { products, orders, formatPrice } from "@/lib/data"
+import { products, orders, formatPrice } from "../../lib/data"
 
 export default function AdminDashboard() {
   const totalRevenue = orders

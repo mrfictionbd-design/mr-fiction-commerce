@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { orders as initialOrders, formatPrice, type Order } from "@/lib/data"
+import { orders as initialOrders, formatPrice, type Order } from "../../../lib/data"
 
 const STATUSES = ["PENDING", "PROCESSING", "SHIPPED", "DELIVERED", "CANCELLED", "REFUNDED"] as const
 
