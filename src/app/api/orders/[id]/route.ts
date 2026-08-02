@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server"
-import { orders } from "@/lib/data"
-import { getAdminSession } from "@/lib/auth"
+import { orders } from "../../../lib/data"
+import { getAdminSession } from "../../../lib/auth"
 
 export async function PATCH(
   req: Request,
